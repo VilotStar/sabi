@@ -77,6 +77,7 @@ fn replace_ident(ident: Ident) -> Option<TokenTree> {
         "分裂" => "split",
         "地図" => "map",
         "総和" => "sum",
+        "プッシュ" => "push",
         "解析" => "parse",
         "ソート" => "sort",
         "文字列を含む" => "include_str",
