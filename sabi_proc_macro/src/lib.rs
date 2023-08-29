@@ -66,6 +66,20 @@ fn replace_ident(ident: Ident) -> Option<TokenTree> {
         "真" => "true",
         "列挙" => "enum",
         "文字列に変換する" => "to_string",
+        "リバース" => "reverse",
+        "スライス" => "as_slice",
+        "スライスミュータブル" => "as_mut_slice",
+        "イテレータ" => "iter",
+        "文字列値" => "str",
+        "ベクトル値" => "Vec",
+        "無記名" => "usize",
+        "符号付き番号" => "isize",
+        "分裂" => "split",
+        "地図" => "map",
+        "総和" => "sum",
+        "解析" => "parse",
+        "ソート" => "sort",
+        "文字列を含む" => "include_str"
 
         _ => &ident_str,
     };
