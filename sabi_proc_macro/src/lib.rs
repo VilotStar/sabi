@@ -79,7 +79,7 @@ fn replace_ident(ident: Ident) -> Option<TokenTree> {
         "総和" => "sum",
         "解析" => "parse",
         "ソート" => "sort",
-        "文字列を含む" => "include_str"
+        "文字列を含む" => "include_str",
 
         _ => &ident_str,
     };
